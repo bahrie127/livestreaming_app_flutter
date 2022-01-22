@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:livestreaming_app_flutter/screens/test_axis.dart';
+import 'package:livestreaming_app_flutter/screens/home.dart';
 // import './screens/home.dart';
 
 void main() {
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyWidget(),
+      home: Home()
     );
   }
 }
